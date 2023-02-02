@@ -1,0 +1,27 @@
+<svg>
+    <!-- bg image -->
+    <image href="sonora-blue-bg.jpg" />
+
+    <!-- clock row 1 -->
+    <use id="row1" href="#fitfont">
+        <use href="#fitfont-char"/>
+        <use href="#fitfont-char"/>
+    </use>
+    <!-- clock row 1 -->
+    <use id="row2" href="#fitfont">
+        <use href="#fitfont-char"/>
+        <use href="#fitfont-char"/>
+    </use>
+
+    <!-- heart graphic -->
+    <use id="heart-view" href="#scrollview-item" class="heart-view-cont full-size">
+      <use href="#heart-graphic" x="50%-128" y="10%" width="256" height="256" class="heart-rate-graphic"/>
+      <text id="currentHRText" x="50%" y="100%-10" class="heart-rate-text"/>
+    </use>
+
+    <rect id="date-container" class="date-container" rx="5" ry="5" x="100%-40" y="50%-16" width="40" height="32"/>
+    <text id="date" class="date" x="100%-20" y="50%+10"/>
+
+    <rect id="full-screen-touch-target" pointer-events="visible" class="clear-touch-target full-size" fill="white" />
+
+</svg>

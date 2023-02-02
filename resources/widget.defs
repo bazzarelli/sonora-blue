@@ -1,0 +1,27 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollbar.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/tile_list_widget.defs" />
+    <link rel="import" href="fitfont.view" />
+
+    <!-- Beating heart animation -->
+    <symbol id="heart-graphic">
+      <g transform="translate(50%,50%)">
+        <image id="heart-icon" x="-50%" y="-50%" href="heart.png" />
+        <animateTransform
+          attributeName="transform"
+          attributeType="scale"
+          dur="1.3s"
+          from="1"
+          to="0.93"
+          repeatCount="indefinite" />
+      </g>
+    </symbol>
+
+  </defs>
+</svg>

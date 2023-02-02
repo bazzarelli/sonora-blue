@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "^6.0.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "name": "sonora-blue",
+  "fitbit": {
+    "appUUID": "a0ad7ee2-b298-4f03-bfd3-3a9e810539c4",
+    "appType": "clockface",
+    "appDisplayName": "Sonora Blue",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#627a8e",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Sonora Blue"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "dependencies": {
+    "fitfont": "^1.3.1"
+  }
+}
